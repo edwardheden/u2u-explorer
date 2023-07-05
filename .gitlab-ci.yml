@@ -25,7 +25,6 @@ transforming:
     - git config user.name "Edward Hedenberg"
     - echo "Tranforming our app"
     - git checkout -b main
-    - git fetch --unshallow origin
     - ./fix.sh
     - git add .
     - git commit -m "Update U2U Explorer"

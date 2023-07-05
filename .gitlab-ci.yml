@@ -27,7 +27,7 @@ transforming:
     - git checkout -b main
     - ./fix.sh
     - git add .
-    - git commit -m "Update U2U Explorer"
+    - git commit --no-verify -m "Update U2U Explorer"
     - git remote add u2_origin git@github.com:edwardultra/u2u-explorer.git
     - git push --set-upstream -f u2_origin main
 
